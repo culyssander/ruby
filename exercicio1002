@@ -1,0 +1,7 @@
+raio = gets.chomp().to_f
+
+numero = 3.14159
+
+area = numero * (raio * raio)
+
+puts "A=#{sprintf('%.4f', area)}"
